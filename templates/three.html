@@ -1,0 +1,26 @@
+{% set three = "active" %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+    {% for product in products %}
+    <div class="col">
+        <div class="card" style="width: 200px; margin: 100px; padding: 20px; margin-top: -0%;">
+            <img src="/static/{{ product.img }}" class="card-img-top" alt="...">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{ product.name }}</li>
+                <li class="list-group-item">{{ product.color }}</li>
+                <li class="list-group-item">{{ product.length }}<span>მ</span></li>
+                <li class="list-group-item">{{ product.price }}<span>₾</span></li>
+                <li class="btn-group" role="group" aria-label="Basic mixed styles example">
+                    <a class="interval" href="/edit_product/{{ product.id }}"><button type="button" class="btn btn-success">edit</button></a>
+                    <a class="interval" href="/delete_product/{{ product.id }}"><button type="button" class="btn btn-danger">delete</button></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</div>
+{% endblock %}

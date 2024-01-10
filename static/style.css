@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+  font-family: myFont;
+  src: url(FiraGO-Regular.ttf);
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 110px;
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+    margin-left: 3%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: grey;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: myFont;
+}
+.nav-links .first a{
+    color: black;
+}
+
+.nav-links .register a{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: green;
+    color: #fff;
+    padding: 5px;
+}
+
+.nav-links .author a{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    padding: 5px;
+}
+.nav-links .logout a {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: green;
+    color: #fff;
+    padding: 5px;
+    }
+
+  .header{
+    min-height: 720px;
+    width: 100%;
+    background-image: url(/static/baagus_curtain_sheer_blinds_wallpaper_malaysia_kuala_lumpur_selangor_-_slider_1\ 1.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+  .page{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 62%;
+  }
+  .page .pageI{
+    width: 430px;
+    height: 680px;
+  }
+  .arrows{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 1%;
+  }
+  .fa{
+    margin-top: 730px;
+    font-size: 60px;
+    color: #A9794B;
+    cursor: pointer;
+  }
+  .two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -6%;
+  }
+  .two .twoI{
+    width: 660px;
+    height: 460px;
+    margin-top: 5%;
+  }
+  .twoT{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -430px;
+  }
+  .twoT .twoH{
+    width: 120px;
+    height: 40px;
+    font-family: myFont;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-size: 36px;
+    color: #5A6794;
+    margin-left: -32%;
+  }
+  .twoT .twoH1{
+    width: 120px;
+    height: 40px;
+    font-family: myFont;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-size: 36px;
+    color: #5A6794;
+    margin-left: -29%;
+  }
+  .two-link{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 325px;
+  }
+  .two-link .twoA{
+    font-family: myFont;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-size: 24px;
+    text-decoration: none;
+    color: #1C2135;
+    margin-left: 200px;
+  }
+  .fas{
+    color: #1C2135;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .header1{
+    min-height: 795px;
+    width: 100%;
+    background-image: url(/static/background.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-top: 5%;
+  }
+  .header1 .header1H{
+    width: 604px;
+    height: 75px;
+    font-family: myFont;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+  .page1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+  }
+  .page1 .page1I{
+    width: 430px;
+    height: 680px;
+  }
+  .page2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.6%;
+    margin-top: 1.5%;
+  }
+  .page2 .page2A{
+    width: 190px;
+    height: 40px;
+    font-family: myFont;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .info-maps{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .back1{
+    width: 501px;
+    height: 728px;
+    background-color: #1C2135;
+  }
+  .back1 .back1H{
+    width: 400px;
+    height: 40px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-family: myFont;
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-top: 8%;
+  }
+  .back1 .back1HH{
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-family: myFont;
+    color: #FFFFFF;
+    margin-left: 3%;
+    margin-top: 14%;
+  }
+  .back1 .back1P{
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-family: myFont;
+    color: #FFFFFF;
+    margin-left: 2.8%;
+  }
+  .back1 .together{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    font-family: myFont;
+    color: #FFFFFF;
+    margin-left: 2.8%;
+    margin-top: 15%;
+  }
+  .end{
+    width: 100%;
+    height: 180px;
+    background-color: #A9794B;
+    margin-top: 150px;
+  }
+  .end .endI{
+    width: 199px;
+    height: 127px;
+    font-weight: 400;
+    line-height: 109px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 36px;
+    margin-top: 2%;
+  }
+  .all1{
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+  }
+  .all1 .end-logo{
+    padding: 8px 20px;
+  }
+  .number{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+  }
+  .number .numberP{
+    width: 151px;
+    height: 11px;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  .info{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5%;
+  }
+  .info .infoD{
+    width: 200px;
+    height: 11px;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  #G2023{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  nav{
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-end{
+    flex: 1;
+    text-align: right;
+}
+.nav-end ul li{
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    margin-top: -5.3%;
+}
+.nav-end ul li a{
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.cont1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.8%;
+}
+.cont1 .cont1I{
+  margin-left: 1%;
+}
+.cont1 .cont2I{
+  margin-left: -2%;
+}
+.cont1 .cont3I{
+  margin-left: 5%;
+}
+.cont1 .cont4I{
+  margin-right: 1%;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.links .linksA{
+  width: 308px;
+  height: 66px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  margin-left: 1%;
+}
+.links .linksB{
+  width: 308px;
+  height: 66px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  margin-right: 7%;
+}
+.links .linksC{
+  width: 308px;
+  height: 66px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  margin-right: -8%;
+}
+.links .linksD{
+  width: 308px;
+  height: 66px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  margin-right: 1.8%;
+}
+.links .fas{
+  font-size: 18px;
+  margin-left: 0.5%;
+  color: #fff;
+}

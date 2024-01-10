@@ -1,0 +1,33 @@
+{% set product = "active" %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    {% if form.errors %}
+        {% for field, errors in form.errors.items() %}
+            {% for error in errors %}
+                <div class="alert alert-danger">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    {{ form.name(class="form-control mt-4", placeholder=form.name.label.text) }}
+    {{ form.color(class="form-control mt-4", placeholder=form.color.label.text) }}
+    {{ form.length(class="form-control mt-4", placeholder=form.length.label.text) }}
+    {{ form.img(class="form-control mt-4", placeholder=form.img.label.text, accept=".jpg,.png,.jpeg") }}
+    {{ form.price(class="form-control mt-4", placeholder=form.price.label.text) }}
+<div class="d-grid gap-2 col-6 mx-auto">
+    {{ form.submit(class="btn btn-warning mt-4") }}
+</div>
+    </form>
+</div>
+<div class="sponsor">
+    <h1>ჩვენი მთავარი სპონსორი</h1>
+</div>
+<div class="tbc-logo">
+    <a href="https://www.tbceducation.ge/"><img src="/static/თიბისი.png" alt="TBC"></a>
+</div>
+{% endblock %}

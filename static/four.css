@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face{
+    font-family: myFont;
+    src: url(FiraGO-Regular.ttf);
+    }
+     nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img{
+        width: 110px;
+    }
+    .nav-links{
+        flex: 1;
+        text-align: left;
+        margin-left: 3%;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: grey;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: 700;
+        font-family: myFont;
+    }
+    .nav-links .four4 a{
+      color: black;
+    }
+
+    .nav-links .register a{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: green;
+    color: #fff;
+    padding: 5px;
+}
+
+.nav-links .author a{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    padding: 5px;
+}
+
+.nav-links .logout a {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: green;
+    color: #fff;
+    padding: 5px;
+    }
+      main{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .main-links{
+        flex: 1;
+        text-align: center;
+        margin-top: -1%;
+        margin-left: -2%;
+      }
+      .main-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 37px;
+        position: relative;
+    }
+    .main-links ul li a{
+        color: black;
+        font-size: 24px;
+        text-decoration: none;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        font-family: myFont;
+    }
+    .main-links ul .tbilisi a{
+        color: #1C2135;
+        font-weight: 600;
+    }
+    .eliava-map{
+        margin-left: 110px;
+    }
+    .maps .first-info{
+        width: 387px;
+        height: 342px;
+        background-color: #1C2135;
+        margin-top: -732px;
+        margin-left: 110px;
+        position: absolute;
+    }
+    .info-links{
+        flex: 1;
+        text-align: left;
+        margin-top: 7%;
+    }
+    .info-links ul li{
+        list-style: none;
+        padding: 8px 20px;
+        position: relative;
+    }
+    .info-links ul li img{
+        width: 20px;
+        height: 20px;
+    }
+    .info-links ul li a{
+        text-decoration: none;
+        color: #FFFFFFFF;
+        font-family: myFont;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        font-size: 24px;
+        margin-left: 6%;
+    }
+    .info-links ul li .info-font{
+        text-decoration: none;
+        color: #FFFFFFFF;
+        font-family: myFont;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        font-size: 20px;
+    }
+    .lilo-map{
+        margin-left: 110px;
+    }
+    .maps1 .first-info1{
+        width: 387px;
+        height: 342px;
+        background-color: #1C2135;
+        margin-top: -732px;
+        margin-left: 110px;
+        position: absolute;
+    }
+    .info-links1{
+        flex: 1;
+        text-align: left;
+        margin-top: 7%;
+    }
+    .info-links1 ul li{
+        list-style: none;
+        padding: 8px 20px;
+        position: relative;
+    }
+    .info-links1 ul li img{
+        width: 20px;
+        height: 20px;
+    }
+    .info-links1 ul li a{
+        text-decoration: none;
+        color: #FFFFFFFF;
+        font-family: myFont;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        font-size: 24px;
+        margin-left: 6%;
+    }
+    .info-links1 ul li .info-font{
+        text-decoration: none;
+        color: #FFFFFFFF;
+        font-family: myFont;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        font-size: 20px;
+    }
+    .maps1{
+        margin-top: 8%;
+    }
+    .maps{
+        margin-top: 4%;
+    }
+    .end{
+        width: 100%;
+        height: 180px;
+        background-color: #A9794B;
+        margin-top: 130px;
+      }
+      .end .endI{
+        width: 199px;
+        height: 127px;
+        font-weight: 400;
+        line-height: 109px;
+        letter-spacing: 0em;
+        text-align: left;
+        font-size: 36px;
+        margin-top: 2%;
+      }
+      .all1{
+        display: flex;
+        justify-content: center;
+        margin-top: -120px;
+      }
+      .all1 .end-logo{
+        padding: 8px 20px;
+      }
+      .number{
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+      }
+      .number .numberP{
+        width: 151px;
+        height: 11px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 11px;
+        letter-spacing: 0.01em;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+      .info{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5%;
+      }
+      .info .infoD{
+        width: 200px;
+        height: 11px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 11px;
+        letter-spacing: 0.01em;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+      #G2023{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+      }
+      nav{
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-end{
+        flex: 1;
+        text-align: right;
+    }
+    .nav-end ul li{
+        list-style: none;
+        padding: 8px 12px;
+        position: relative;
+        margin-top: -5.3%;
+    }
+    .nav-end ul li a{
+      text-decoration: none;
+      font-family: Montserrat;
+      font-weight: 400;
+      letter-spacing: 0em;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
